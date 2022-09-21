@@ -37,3 +37,10 @@ main article button {
   padding: 6px 12px;
   color: #fff;
 }
+p {
+  font-size: 30px;
+  color: #25682a !important;
+}
+button {
+  font-size: 20px;
+}
