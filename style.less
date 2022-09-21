@@ -1,19 +1,33 @@
+// Mixins p1
+
 @theme-color: blue;
 @p-margin-size: 100px;
 
 html {
-    color: @theme-color;
-    font-family: sans-serif;
-
+  color: @theme-color;
+  font-family: sans-serif;
 }
 header {
-    color: @theme-color;
+  color: @theme-color;
 }
 
 button {
-    background: green;
+  background: green;
 }
 
-h3{
-    margin: @p-margin-size;
+h3 {
+  margin: @p-margin-size;
+}
+
+// Mixins p2
+
+.fancy-border(@size: 1px, @color: black) {
+  border: @size dashed @color;
+}
+
+.fancier-border {
+  .fancy-border(4px, blue);
+  background: #ccc;
+  padding: 10px;
+  border-radius: 4px;
 }

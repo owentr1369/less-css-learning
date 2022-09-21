@@ -11,3 +11,9 @@ button {
 h3 {
   margin: 100px;
 }
+.fancier-border {
+  border: 4px dashed blue;
+  background: #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
