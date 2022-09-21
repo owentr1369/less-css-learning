@@ -21,3 +21,19 @@ p {
   font-size: 46px;
   color: brown;
 }
+main {
+  background: yellow;
+}
+main p {
+  color: red;
+}
+main article {
+  color: purple;
+}
+main article button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  color: #fff;
+}

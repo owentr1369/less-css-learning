@@ -46,3 +46,26 @@ h3 {
 p {
     .p-style(46px)
 }
+
+// Nesting and scope
+main {
+    background: yellow;
+}
+main p {
+    color: red;
+
+}
+
+main {
+    article {
+        color: purple;
+        button {
+                outline: none;
+                border: none;
+                border-radius: 4px;
+                padding: 6px 12px;
+                color: #fff;
+            }
+    }
+}
+
