@@ -31,3 +31,18 @@ h3 {
   padding: 10px;
   border-radius: 4px;
 }
+
+// Mixins guards & conditionals
+.p-style(@size) when (@size <= 20){
+    font-size: @size;
+    color: red;
+}
+
+.p-style(@size) when (@size >21) {
+    font-size: @size;
+    color: brown;
+}
+
+p {
+    .p-style(46px)
+}
