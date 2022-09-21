@@ -70,16 +70,21 @@ main {
 }
 
 // Operators
-
 @base-size: 10px;
 @base-color: #1b5e20;
 
 p {
     font-size: @base-size * 3;
-    color: @base-color + 10 !important;
+    color: @base-color + 10;
 }
 button {
     font-size: @base-size * 2;
 
+}
+
+// Desaturate functions 
+button {
+    font-size: 40px;
+    background-color: desaturate(blue, 50%) !important;
 }
 

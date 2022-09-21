@@ -39,8 +39,12 @@ main article button {
 }
 p {
   font-size: 30px;
-  color: #25682a !important;
+  color: #25682a;
 }
 button {
   font-size: 20px;
+}
+button {
+  font-size: 40px;
+  background-color: #4040bf !important;
 }
